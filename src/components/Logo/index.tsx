@@ -8,8 +8,8 @@ export default function Logo() {
       <Link href={"https://queirozdeveloper.com.br"}>
         <Image
           src={logo}
-          width={220}
-          height={140}
+          width={180}
+          height={120}
           alt="Thiago José de Queiroz"
           priority
           className="mx-auto py-4 animate-wiggle"

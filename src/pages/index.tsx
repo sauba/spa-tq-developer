@@ -20,8 +20,8 @@ export default function Home() {
       items-center
       justify-center
       bg-gradient-to-b
-      from-sky-600
-      via-sky-800
+      from-indigo-800
+      via-purple-800
       to-zinc-950
       `}
     >
