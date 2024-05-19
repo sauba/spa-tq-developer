@@ -15,10 +15,11 @@ export default function About() {
         items-center
         lg:pt-8
         text-red-50
+        gap-6
       `}
       id="servicos"
     >
-      <h1 className={`lg:text-6xl font-caveat`}>Serviços</h1>
+      <h1 className={`text-2xl lg:text-6xl font-caveat`}>Serviços</h1>
       <AcessoRemoto />
       <ManutencaoPreventiva />
       <ManutencaoCorretiva />
