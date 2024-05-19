@@ -6,7 +6,6 @@ export default function ManutencaoPreventiva() {
     <div
       className={`
         w-full
-        min-h-screen
         flex
         flex-col
         mx-auto
