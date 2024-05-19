@@ -30,6 +30,8 @@ export default function About() {
               flex
               text-center
               text-2xl
+              pt-5
+              lg:pt-0
               xl:text-4xl
               font-bad-script
               hover:cursor-none
@@ -54,7 +56,7 @@ export default function About() {
       <p
         className={`
             px-12
-            pt-12
+            pt-8
             2xl:px-8
             xl:text-2xl
             2xl:text-3xl

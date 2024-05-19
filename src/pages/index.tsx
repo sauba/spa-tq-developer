@@ -3,6 +3,7 @@ import About from "@/components/About"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import Projects from "@/components/Projects"
+import Servicos from "@/components/Servicos"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -28,6 +29,7 @@ export default function Home() {
       <Header />
       <About />
       <Projects />
+      <Servicos />
       <Footer />
     </main>
   )
