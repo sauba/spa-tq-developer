@@ -1,3 +1,4 @@
+import AcessoRemoto from "../Acesso Remoto";
 import ManutencaoCorretiva from "../ManutencaoCorretiva";
 import ManutencaoPreventiva from "../ManutencaoPreventiva";
 
@@ -18,6 +19,7 @@ export default function About() {
       id="servicos"
     >
       <h1 className={`lg:text-6xl font-caveat`}>Serviços</h1>
+      <AcessoRemoto />
       <ManutencaoPreventiva />
       <ManutencaoCorretiva />
     </div>

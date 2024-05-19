@@ -12,13 +12,12 @@ export default function ManutencaoCorretiva() {
         mx-auto
         justify-center
         items-center
-        lg:pt-8
         text-red-50
       `}
       id="manutencaoCorretiva"
     >
       <div className={`w-full flex justify-evenly items-center lg:pt-8`}>
-        <Image src={mb} width={600} height={600} alt="" className={`w-full overflow-hidden rounded-r-full`} />
+        <Image src={mb} width={600} height={600} alt="" className={`w-full overflow-hidden rounded-r-full hover:transition-transform hover:scale-110 hover:cursor-none`} />
         <div className={`flex flex-col`}>
           <p className={`text-3xl lg:text-5xl text-center font-caveat`}>
             Manutenção Corretiva
