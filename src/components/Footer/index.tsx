@@ -9,11 +9,9 @@ import Logo from "../Logo"
 export default function Footer() {
   return (
     <footer
-      className={`w-full  justify-center items-center text-center min-h-screen`}
+      className={`w-full justify-center items-center text-center min-h-screen`}
       id="contato"
     >
-
-
       <div
         className={`flex w-full justify-center items-center text-center text-red-50 min-h-screen`}
       >

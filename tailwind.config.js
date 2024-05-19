@@ -95,7 +95,7 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'dive-surface-interval': "url('/perfilDani.svg')",
+        'dive': "url('/imgDive.svg')",
         },
       screens: {
         'xs': '475px',

@@ -37,7 +37,7 @@ export default function About() {
               items-center
             `}
         >
-          Olá, eu sou <p className={`animate-pulse-slow-stop lg:pl-4`}>Thiago José de Queiroz</p>
+          Olá, eu sou <p className={`animate-pulse-slow-stop pl-4`}>Thiago José de Queiroz</p>
         </span>
       </span>
 
@@ -53,8 +53,8 @@ export default function About() {
       </div>
       <p
         className={`
-            px-4
-            py-10
+            px-12
+            py-12
             2xl:px-8
             xl:text-2xl
             2xl:text-3xl
@@ -65,7 +65,7 @@ export default function About() {
           `}
       >
         Apaixonado por tecnologia e assumidamente um Usuário Linux...
-        Atualmente focando meu aprendizado em linguagens como: Javascript, NodeJS, ReactJS.
+        Atualmente focando meu aprendizado em linguagens de programação como: Javascript, NodeJS, ReactJS.
       </p>
 
       {/* <p

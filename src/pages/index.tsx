@@ -21,7 +21,6 @@ export default function Home() {
       justify-center
       bg-gradient-to-b
       from-indigo-800
-      via-purple-800
       to-zinc-950
       `}
     >
