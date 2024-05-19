@@ -54,7 +54,7 @@ export default function About() {
       <p
         className={`
             px-12
-            py-12
+            pt-12
             2xl:px-8
             xl:text-2xl
             2xl:text-3xl
@@ -65,8 +65,10 @@ export default function About() {
           `}
       >
         Apaixonado por tecnologia e assumidamente um Usuário Linux...
-        Atualmente focando meu aprendizado em linguagens de programação como: Javascript, NodeJS, ReactJS.
+        Atualmente focando meu aprendizado em linguagens de programação como:
       </p>
+
+      <span className={`text-4xl font-caveat`}>Javascript, NodeJS, ReactJS.</span>
 
       {/* <p
         className={`

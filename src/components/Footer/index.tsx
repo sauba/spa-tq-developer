@@ -9,7 +9,7 @@ import Logo from "../Logo"
 export default function Footer() {
   return (
     <footer
-      className={`w-full justify-center items-center text-center min-h-screen`}
+      className={`w-full justify-center items-center text-center min-h-screen bg-dive`}
       id="contato"
     >
       <div
