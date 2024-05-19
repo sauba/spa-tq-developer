@@ -46,7 +46,7 @@ export default function About() {
           src={imgProfile}
           width={200}
           height={200}
-          className={`mx-auto rounded-full hover:cursor-none hover:scale-125 hover:transition-transform hover:duration-500`}
+          className={`mx-auto rounded-full animate-pulse hover:cursor-none hover:scale-125 hover:transition-transform hover:duration-500`}
           priority
           alt="Web Developer Thiago Jose de Queiroz"
         />
