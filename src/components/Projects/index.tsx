@@ -20,10 +20,10 @@ export default function Projects() {
       `}
       id="projects"
     >
-      <h1 className={`text-2xl lg:text-6xl font-bad-script`}>Projetos</h1>
-      <p className={`font-bad-script lg:text-2xl py-8`}>Confira abaixo alguns do projetos realizados</p>
-      <div className={`w-full grid grid-cols-2 lg:grid-cols-4`}>
-        <span className={`mx-auto p-4`}>
+      <h1 className={`text-3xl lg:text-6xl font-bad-script`}>Projetos</h1>
+      <p className={`font-bad-script lg:text-2xl pt-8`}>Confira abaixo alguns do projetos realizados</p>
+      <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden`}>
+        <span className={`mx-auto p-1`}>
           <Link
             href="https://danieleandrade.com"
             target="_blank"
@@ -33,7 +33,7 @@ export default function Projects() {
           </Link>
         </span>
 
-        <span className={`mx-auto p-4`}>
+        <span className={`mx-auto p-1`}>
           <Link
             href="https://pedrapretasurfmaster.com.br"
             target="_blank"
@@ -43,7 +43,7 @@ export default function Projects() {
           </Link>
         </span>
 
-        <span className={`mx-auto p-4`}>
+        <span className={`mx-auto p-1`}>
           <Link
             href="https://oreidapraiaitapuama.com.br"
             target="_blank"
@@ -53,7 +53,7 @@ export default function Projects() {
           </Link>
         </span>
 
-        <span className={`mx-auto p-4`}>
+        <span className={`mx-auto p-1`}>
           <Link
             href="https://levezaparaviver.com"
             target="_blank"
