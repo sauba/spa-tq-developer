@@ -75,7 +75,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#projetos"
+                          href="#projects"
                           className={`
                             flex
                             items-center

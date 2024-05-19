@@ -1,5 +1,5 @@
 import Image from "next/image"
-import imgProfile from "../../../public/sauba.png"
+import imgProfile from "../../../public/sauba.svg"
 
 export default function About() {
   return (
