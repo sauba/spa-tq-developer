@@ -23,7 +23,7 @@ export default function ManutencaoPreventiva() {
           <p className={`text-sm lg:text-2xl text-center lg:pt-8 px-4 lg:px-16`}>Neste serviço é realizado a limpeza e remoção de resíduos como poeira. substituição de pasta térmica do processador.</p>
           <p className={`text-sm lg:text-2xl text-center lg:pt-8 px-4 lg:px-16`}>E efetuado um check up dos hardwares na tentativa de prever possíveis equipamentos defeituosos.</p>
         </div>
-        <Image src={imgMotherboard} width={600} height={600} alt="" className={`w-full overflow-hidden rounded-bl-full hover:transition-transform hover:scale-110 hover:cursor-none`} />
+        <Image src={imgMotherboard} width={600} height={600} alt="" className={`w-full overflow-hidden rounded-bl-full hover:rounded-bl-full hover:transition-transform hover:scale-125 hover:cursor-none`} />
       </div>
     </div>
   )
