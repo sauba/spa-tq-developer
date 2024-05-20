@@ -6,6 +6,7 @@ export default function AcessoRemoto() {
     <div
       className={`
         w-full
+        min-h-screen
         flex
         flex-col
         mx-auto

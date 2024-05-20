@@ -10,6 +10,7 @@ export default function Projects() {
     <div
       className={`
         w-full
+        min-h-screen
         flex
         flex-col
         mx-auto
@@ -21,15 +22,15 @@ export default function Projects() {
       id="projects"
     >
       <h1 className={`text-3xl lg:text-6xl font-bad-script`}>Projetos</h1>
-      <p className={`font-bad-script lg:text-2xl pt-8`}>Confira abaixo alguns do projetos realizados</p>
-      <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden`}>
+      <p className={`font-bad-script lg:text-2xl pt-8 pb-4`}>Confira abaixo alguns do projetos realizados</p>
+      <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden py-4`}>
         <span className={`mx-auto p-1`}>
           <Link
             href="https://danieleandrade.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img01} width={280} height={280} className={`rounded-3xl hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img01} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
 
@@ -39,7 +40,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img02} width={280} height={280} className={`rounded-3xl hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img02} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
 
@@ -49,7 +50,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img03} width={280} height={280} className={`rounded-3xl hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img03} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
 
@@ -59,7 +60,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img04} width={280} height={280} className={`rounded-3xl hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img04} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
       </div>
