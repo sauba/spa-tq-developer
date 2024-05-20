@@ -30,7 +30,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img01} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img01} width={180} height={180} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
 
@@ -40,7 +40,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img02} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img02} width={180} height={180} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
 
@@ -50,7 +50,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img03} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img03} width={180} height={180} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
 
@@ -60,7 +60,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img04} width={280} height={280} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img04} width={180} height={180} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
       </div>

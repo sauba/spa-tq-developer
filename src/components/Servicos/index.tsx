@@ -11,7 +11,7 @@ export default function About() {
         flex
         flex-col
         mx-auto
-        justify-center
+        justify-evenly
         items-center
         lg:pt-8
         text-red-50
