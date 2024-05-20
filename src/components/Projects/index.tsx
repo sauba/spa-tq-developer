@@ -22,7 +22,7 @@ export default function Projects() {
       id="projects"
     >
       <h1 className={`text-6xl font-bad-script`}>Projetos</h1>
-      <p className={`font-bad-script text-xs lg:text-2xl pt-8 pb-4`}>Confira abaixo alguns do projetos realizados</p>
+      <p className={`font-bad-script text-xs text-center lg:text-2xl pt-8 pb-4`}>Confira abaixo alguns do projetos realizados</p>
       <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden py-4`}>
         <span className={`mx-auto p-1`}>
           <Link
