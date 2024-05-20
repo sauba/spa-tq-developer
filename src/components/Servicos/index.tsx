@@ -19,7 +19,7 @@ export default function About() {
       `}
       id="servicos"
     >
-      <h1 className={`text-3xl lg:text-6xl font-caveat`}>Serviços</h1>
+      <h1 className={`text-6xl font-caveat`}>Serviços</h1>
       <AcessoRemoto />
       <ManutencaoPreventiva />
       <ManutencaoCorretiva />
