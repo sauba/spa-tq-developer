@@ -27,7 +27,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-52 rounded-md bg-transparent">
+              <Menu.Items className="origin-top-left absolute left-0 w-52 bg-transparent">
                 <div className="flex-col justify-start items-start">
                   <Menu.Item>
                     {({ active }) => (
@@ -38,7 +38,7 @@ export default function NavbarDropdownMenu() {
                           items-center
                           my-2                             
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold"
+                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
                             : "bg-transparent text-red-50 font-bold"
                           }
                         `}
@@ -69,7 +69,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold"
+                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
                             : "bg-transparent text-red-50 font-bold"
                           }
                         `}
@@ -102,7 +102,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold"
+                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
                             : "bg-transparent text-red-50 font-bold"
                           }
                         `}
@@ -135,7 +135,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold"
+                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
                             : "bg-transparent text-red-50 font-bold"
                           }
                         `}
