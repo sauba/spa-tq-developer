@@ -9,16 +9,16 @@ import Logo from "../Logo"
 export default function Footer() {
   return (
     <footer
-      className={`w-full justify-center items-center text-center min-h-screen bg-dive`}
+      className={`w-full justify-center items-center text-center`}
       id="contato"
     >
       <div
-        className={`flex w-full justify-center items-center text-center text-red-50 min-h-screen`}
+        className={`flex w-full justify-center items-center text-center text-red-50`}
       >
         <Logo />
         <div className={`flex flex-col mt-4 font-pt-mono hover:cursor-none`}>
           <span
-            className={`text-3xl lg:text-4xl text-center font-allura`}
+            className={`text-2xl lg:text-4xl text-center font-allura`}
           >
             Thiago José de Queiroz
           </span>
