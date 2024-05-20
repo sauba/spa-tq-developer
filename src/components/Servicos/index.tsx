@@ -15,7 +15,7 @@ export default function About() {
         items-center
         lg:pt-8
         text-red-50
-        gap-6
+        gap-12
       `}
       id="servicos"
     >
