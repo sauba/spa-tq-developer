@@ -1,4 +1,5 @@
 import {
+  GithubLogo,
   InstagramLogo,
   LinkedinLogo,
   WhatsappLogo
@@ -66,6 +67,18 @@ export default function Footer() {
                   rel="noopener noreferrer"
                 >
                   <LinkedinLogo size={48} />
+                </Link>
+              </span>
+            </div>
+
+            <div className={`hover:animate-wiggle`}>
+              <span className={`text-red-50`}>
+                <Link
+                  href="https://github.com/sauba"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GithubLogo size={48} />
                 </Link>
               </span>
             </div>
