@@ -85,7 +85,7 @@ export default function About() {
           `}
       >
         Atualmente no processo de transição de carreira, buscando colaborar em projetos onde eu possa dedicar meu melhor para alcançar os objetivos, evoluindo assim meus conhecimentos.
-        Possuo uma sólida experiência com Administração de Sistemas Windows & Linux,assim como manutenção de desktops, notebooks e servidores, além de dispositivos periféricos como impressoras e etc...
+        Possuo uma sólida experiência com Administração de Sistemas Windows & Linux, assim como manutenção de desktops, notebooks e servidores, além de dispositivos periféricos como impressoras e etc...
       </p>
     </div>
   )
