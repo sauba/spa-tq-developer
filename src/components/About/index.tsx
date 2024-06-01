@@ -67,12 +67,12 @@ export default function About() {
           `}
       >
         Apaixonado por tecnologia e assumidamente um Usuário Linux...
-        Atualmente focando meu aprendizado em linguagens de programação como:
+        No momento, estou focando meu aprendizado em linguagens de programação como:
       </p>
 
-      <span className={`text-4xl font-caveat`}>Javascript, NodeJS, ReactJS.</span>
+      <p className={`text-5xl font-caveat`}>Javascript, NodeJS, ReactJS.</p>
 
-      {/* <p
+      <p
         className={`
             px-4
             2xl:px-8
@@ -84,9 +84,9 @@ export default function About() {
             font-bad-script
           `}
       >
-        Em transição de carreira, buscando colaborar em projetos onde eu possa dedicar meu melhor para alcançar os objetivos, evoluindo assim meus conhecimentos.
-        Possuo uma sólida experiência em manutenção de desktops, notebooks e servidores, além de dispositivos periféricos como impressoras e etc...
-      </p> */}
+        Atualmente no processo de transição de carreira, buscando colaborar em projetos onde eu possa dedicar meu melhor para alcançar os objetivos, evoluindo assim meus conhecimentos.
+        Possuo uma sólida experiência com Administração de Sistemas Windows & Linux,assim como manutenção de desktops, notebooks e servidores, além de dispositivos periféricos como impressoras e etc...
+      </p>
     </div>
   )
 }
