@@ -86,6 +86,21 @@ export default function About() {
           `}
       >
         Atualmente no processo de transição de carreira, buscando colaborar em projetos onde eu possa dedicar meu melhor para alcançar os objetivos, evoluindo assim meus conhecimentos.
+      </p>
+
+      <p
+        className={`
+            px-2
+            lg:pt-8
+            2xl:px-8
+            xl:text-2xl
+            2xl:text-3xl
+            text-center
+            tracking-widest
+            leading-loose
+            font-bad-script
+          `}
+      >
         Possuo experiência com suporte Helpdesk, Administração de Sistemas Windows & Linux, assim como manutenção de desktops, notebooks e servidores, além de dispositivos periféricos como impressoras e etc...
       </p>
     </div>
