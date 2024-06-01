@@ -62,7 +62,7 @@ export default function About() {
             2xl:text-5xl
             text-center
             tracking-widest
-            leading-10
+            leading-loose
             font-bad-script
           `}
       >
