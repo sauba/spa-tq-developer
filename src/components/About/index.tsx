@@ -74,13 +74,14 @@ export default function About() {
 
       <p
         className={`
-            px-4
+            px-12
+            pt-8
             2xl:px-8
             xl:text-2xl
             2xl:text-3xl
             text-center
             tracking-widest
-            leading-10
+            leading-loose
             font-bad-script
           `}
       >
