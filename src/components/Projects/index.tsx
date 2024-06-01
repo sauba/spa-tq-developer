@@ -21,9 +21,9 @@ export default function Projects() {
       `}
       id="projects"
     >
-      <h1 className={`text-6xl font-bad-script`}>Projetos</h1>
-      <p className={`font-bad-script text-xs text-center lg:text-2xl pt-8 pb-4`}>Confira abaixo alguns do projetos realizados</p>
-      <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden py-4`}>
+      <h1 className={`text-6xl lg:text-9xl font-bad-script`}>Projetos</h1>
+      <p className={`font-bad-script text-xs text-center lg:text-4xl pt-12 pb-4`}>Confira abaixo alguns do projetos realizados</p>
+      <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden p-4`}>
         <span className={`mx-auto p-1`}>
           <Link
             href="https://danieleandrade.com"
@@ -60,7 +60,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img04} width={180} height={180} className={`rounded-full hover:transition-transform hover:scale-110 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img04} width={210} height={210} className={`rounded-full hover:transition-transform hover:scale-150 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
       </div>
