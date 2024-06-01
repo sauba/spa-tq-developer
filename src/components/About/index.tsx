@@ -55,11 +55,11 @@ export default function About() {
       </div>
       <p
         className={`
-            px-12
+            px-2
             pt-8
             2xl:px-8
-            xl:text-4xl
-            2xl:text-5xl
+            xl:text-3xl
+            2xl:text-4xl
             text-center
             tracking-widest
             leading-loose
@@ -70,12 +70,12 @@ export default function About() {
         No momento, estou focando meu aprendizado em linguagens de programação como:
       </p>
 
-      <p className={`text-3xl lg:text-6xl font-caveat leading-loose tracking-wider`}>Javascript, NodeJS, ReactJS.</p>
+      <span className={`text-3xl lg:text-6xl font-caveat leading-loose tracking-wider`}>Javascript, NodeJS, ReactJS.</span>
 
       <p
         className={`
-            px-12
-            pt-8
+            px-2
+            lg:pt-8
             2xl:px-8
             xl:text-2xl
             2xl:text-3xl
@@ -86,7 +86,7 @@ export default function About() {
           `}
       >
         Atualmente no processo de transição de carreira, buscando colaborar em projetos onde eu possa dedicar meu melhor para alcançar os objetivos, evoluindo assim meus conhecimentos.
-        Possuo uma sólida experiência com Administração de Sistemas Windows & Linux, assim como manutenção de desktops, notebooks e servidores, além de dispositivos periféricos como impressoras e etc...
+        Possuo experiência com suporte Helpdesk, Administração de Sistemas Windows & Linux, assim como manutenção de desktops, notebooks e servidores, além de dispositivos periféricos como impressoras e etc...
       </p>
     </div>
   )
