@@ -32,7 +32,7 @@ export default function About() {
               text-2xl
               pt-5
               lg:pt-0
-              xl:text-4xl
+              xl:text-5xl
               font-bad-script
               hover:cursor-none
               justify-center
