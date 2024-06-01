@@ -23,7 +23,7 @@ export default function Projects() {
     >
       <h1 className={`text-6xl lg:text-9xl font-bad-script`}>Projetos</h1>
       <p className={`font-bad-script text-xs text-center lg:text-4xl pt-12 pb-4`}>Confira abaixo alguns do projetos realizados</p>
-      <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden p-4 gap-3`}>
+      <div className={`w-full grid grid-cols-2 lg:grid-cols-4 overflow-hidden p-4 gap-6`}>
         <span className={`mx-auto p-1`}>
           <Link
             href="https://danieleandrade.com"
