@@ -70,7 +70,7 @@ export default function About() {
         No momento, estou focando meu aprendizado em linguagens de programação como:
       </p>
 
-      <p className={`text-5xl font-caveat`}>Javascript, NodeJS, ReactJS.</p>
+      <p className={`text-5xl font-caveat leading-loose tracking-wider`}>Javascript, NodeJS, ReactJS.</p>
 
       <p
         className={`
