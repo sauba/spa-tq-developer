@@ -60,7 +60,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={img04} width={210} height={210} className={`rounded-full hover:transition-transform hover:scale-150 hover:cursor-pointer overflow-hidden`} alt="" />
+            <Image src={img04} width={200} height={210} className={`rounded-full hover:transition-transform hover:scale-150 hover:cursor-pointer overflow-hidden`} alt="" />
           </Link>
         </span>
       </div>
