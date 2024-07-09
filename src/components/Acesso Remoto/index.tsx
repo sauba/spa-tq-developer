@@ -21,7 +21,7 @@ export default function AcessoRemoto() {
           <p className={`text-5xl lg:text-8xl text-center font-caveat`}>
             Acesso Remoto
           </p>
-          <p className={`text-lg lg:text-4xl text-right lg:pt-8 px-4 lg:px-16`}>Neste modalidade de serviço é realizado o acesso remoto para a resolução de problemas relatados pelo usuário.</p>
+          <p className={`text-lg lg:text-4xl text-right lg:pt-8 px-4 lg:px-16`}>Nesta modalidade de serviço é realizado o acesso remoto para a resolução de problemas relatados pelo usuário.</p>
           <p className={`text-lg lg:text-4xl text-right lg:pt-8 px-4 lg:px-16`}>Como a instalação de Softwares, impressoras e outros periféricos. onde haja conexão com a internet.</p>
         </div>
       </div>
