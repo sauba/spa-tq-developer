@@ -4,31 +4,31 @@ import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-start items-start border-none outline-none">
+    <div className="flex justify-end items-end border-none outline-none">
       <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50 border-none outline-none">
+            <Menu.Button className="inline-flex justify-items-end rounded-md text-red-50 border-none outline-none">
               <ListBullets
                 size={68}
                 weight="thin"
                 color="white"
-                className={`py-4`}
+                className={`pt-4`}
               />
             </Menu.Button>
 
             {/* Menu Items */}
             <Transition
               show={open}
-              enter="transform transition duration-100 ease-in"
-              enterFrom="opacity-0 scale-95"
-              enterTo="opacity-100 scale-100"
-              leave="transform transition duration-75 ease-out"
-              leaveFrom="opacity-100 scale-100"
-              leaveTo="opacity-0 scale-95"
+              enter="transition duration-500 ease-in-out transform"
+              enterFrom="opacity-0 rotate-[-180deg]"
+              enterTo="opacity-100 rotate-0"
+              leave="transition duration-300 ease-in-out transform"
+              leaveFrom="opacity-100 rotate-0"
+              leaveTo="opacity-0 rotate-[180deg]"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-52 bg-transparent">
-                <div className="flex-col justify-start items-start">
+              <Menu.Items className="origin-top-right absolute right-0 w-52 bg-gradient-to-br from-indigo-950 via-indigo-800 to-indigo-700 rounded-l-lg">
+                <div className="flex-col justify-end items-end">
                   <Menu.Item>
                     {({ active }) => (
                       <div
@@ -38,8 +38,8 @@ export default function NavbarDropdownMenu() {
                           items-center
                           my-2                             
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "text-red-50 text-2xl font-bold animate-wiggle"
+                            : "text-red-50 font-bold"
                           }
                         `}
                       >
@@ -69,8 +69,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "text-red-50 text-2xl font-bold animate-wiggle"
+                            : "text-red-50 font-bold"
                           }
                         `}
                       >
@@ -102,8 +102,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "text-red-50 text-2xl font-bold animate-wiggle"
+                            : "text-red-50 font-bold"
                           }
                         `}
                       >
@@ -135,8 +135,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "text-red-50 text-2xl font-bold animate-wiggle"
+                            : "text-red-50 font-bold"
                           }
                         `}
                       >
