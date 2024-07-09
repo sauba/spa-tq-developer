@@ -58,8 +58,8 @@ export default function About() {
             px-2
             pt-8
             2xl:px-8
-            xl:text-3xl
-            2xl:text-4xl
+            xl:text-2xl
+            2xl:text-3xl
             text-center
             tracking-widest
             leading-loose
