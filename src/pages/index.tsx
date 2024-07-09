@@ -28,8 +28,8 @@ export default function Home() {
     >
       <Header />
       <About />
-      <Projects />
       <Servicos />
+      <Projects />
       <Footer />
     </main>
   )
