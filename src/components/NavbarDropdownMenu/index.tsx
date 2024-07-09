@@ -20,12 +20,12 @@ export default function NavbarDropdownMenu() {
             {/* Menu Items */}
             <Transition
               show={open}
-              enter="transition duration-500 ease-in-out transform"
-              enterFrom="opacity-0 rotate-[-180deg]"
-              enterTo="opacity-100 rotate-0"
-              leave="transition duration-300 ease-in-out transform"
-              leaveFrom="opacity-100 rotate-0"
-              leaveTo="opacity-0 rotate-[180deg]"
+              enter="transition-transform duration-300 ease-out"
+              enterFrom="translate-x-full"
+              enterTo="translate-x-0"
+              leave="transition-transform duration-300 ease-in"
+              leaveFrom="translate-x-0"
+              leaveTo="translate-x-full"
             >
               <Menu.Items className="origin-top-right absolute right-0 w-52 bg-gradient-to-br from-indigo-950 via-indigo-800 to-indigo-700 rounded-l-lg">
                 <div className="flex-col justify-end items-end">
