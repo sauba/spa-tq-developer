@@ -158,6 +158,40 @@ export default function NavbarDropdownMenu() {
                       </div>
                     )}
                   </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-center
+                          items-center
+                          ${active
+                            ? "text-red-50 text-2xl font-bold animate-wiggle"
+                            : "text-red-50 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="/controlefinancas"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            text-center
+                            gap-3
+                            hover:font-bold
+                            hover:text-lg
+                          `}
+                        >
+                          Gerenciador Pessoal de Finanças
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
                 </div>
               </Menu.Items>
             </Transition>
