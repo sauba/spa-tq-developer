@@ -1,7 +1,13 @@
 'use client'
-import { Container, Header, HeaderTitle, Total } from "./styles"
+import { IconType } from "react-icons";
+import { Container, Header, HeaderTitle, Total } from "./styles";
+interface ResumeItemProps {
+  title: string;
+  Icon: IconType;
+  value: string;
+}
 
-export default function ResumeItem({ title, Icon, value }) {
+export default function ResumeItem({ title, Icon, value }: ResumeItemProps) {
   return (
     <Container>
       <Header>
@@ -10,5 +16,5 @@ export default function ResumeItem({ title, Icon, value }) {
       </Header>
       <Total>{value}</Total>
     </Container>
-  )
+  );
 }
