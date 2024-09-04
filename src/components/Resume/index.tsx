@@ -1,9 +1,16 @@
 'use client'
-import { FaDollarSign, FaRegArrowAltCircleDown, FaRegArrowAltCircleUp } from "react-icons/fa"
-import ResumeItem from "../ResumeItem"
-import { Container } from "./styles"
+import { FaDollarSign, FaRegArrowAltCircleDown, FaRegArrowAltCircleUp } from "react-icons/fa";
+import ResumeItem from "../ResumeItem";
+import { Container } from "./styles";
 
-export default function Resume({ income, expense, total }) {
+interface ResumeProps {
+  income: string;
+  expense: string;
+  total: string;
+}
+
+
+export default function Resume({ income, expense, total }: ResumeProps) {
   return (
     <Container>
       <ResumeItem title="Entradas" Icon={FaRegArrowAltCircleUp} value={income} />
