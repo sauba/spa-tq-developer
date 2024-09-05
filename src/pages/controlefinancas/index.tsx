@@ -7,7 +7,7 @@ import Header from "@/components/Header"
 export default function ControleFinancasPage() {
   return (
     <div>
-      <div className={`w-full min-h-screen justify-center items-center bg-teal-700 xl:pt-64`}>
+      <div className={`w-full min-h-screen justify-center items-center xl:pt-64`}>
         <Header />
       </div>
       <FinancialControl />
